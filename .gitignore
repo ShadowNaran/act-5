@@ -1,5 +1,4 @@
 # Configuracion local y secretos
-apiinicial-dto/appsettings.json
 apiinicial-dto/appsettings.Development.json
 
 # Carpetas generadas
