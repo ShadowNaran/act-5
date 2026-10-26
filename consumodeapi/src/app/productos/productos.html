@@ -1,0 +1,14 @@
+<p>productos works!</p>
+<section>
+  <h2>Productos</h2>
+  @if (cargando()) { <p>Cargando productos...</p> }
+  @else if (error()) { <p class="error">{{ error() }}</p> }
+  @else if (productos().length === 0) { <p>No hay productos registrados.</p> }
+  @else {
+    <div class="productos-grid">
+      @for (producto of productos(); track producto.id) {
+        <app-producto-card [producto]="producto" />
+      }
+    </div>
+  }
+</section>

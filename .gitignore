@@ -1,0 +1,23 @@
+# Configuracion local y secretos
+apiinicial-dto/appsettings.json
+apiinicial-dto/appsettings.Development.json
+
+# Carpetas generadas
+apiinicial-dto/bin/
+apiinicial-dto/obj/
+consumodeapi/node_modules/
+consumodeapi/dist/
+consumodeapi/.angular/
+
+# Configuracion del agente de trabajo
+.agents/
+
+# Repositorios internos o metadatos locales
+**/.git/
+
+# Archivos temporales
+*.user
+*.suo
+.vs/
+Thumbs.db
+.DS_Store

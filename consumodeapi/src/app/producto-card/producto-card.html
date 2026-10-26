@@ -1,0 +1,8 @@
+<p>producto-card works!</p>
+<article class="producto-card" appResaltarStock>
+  <h3>{{ producto().nombre }}</h3>
+  <p>Precio: Bs. {{ producto().precio }}</p>
+  <p>Stock: {{ producto().stock }}</p>
+  <p>Estado: {{ producto().estado | estadoProducto }}</p>
+  <small>Categoría: {{ producto().nombreCategoria || 'Sin categoría' }}</small>
+</article>

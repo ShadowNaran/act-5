@@ -1,0 +1,1344 @@
+{
+  "app": "Flashpost",
+  "version": "1.0",
+  "type": "all-collections",
+  "exportedDate": "25-Oct-2026 04:45:01",
+  "collections": [
+    {
+      "id": "e09121d8-dda8-4bfb-be7f-3a7732c2faef",
+      "parent": "0",
+      "text": "ProductosCollection",
+      "createdTime": "24-Oct-2026 19:20:40",
+      "droppable": true,
+      "relativeIndex": 0,
+      "data": {
+        "treeNodeType": "collection",
+        "variableId": "77c8a082-a1f4-419d-b658-37226be28705"
+      },
+      "settings": {
+        "auth": {
+          "authType": "noauth",
+          "userName": "",
+          "password": "",
+          "addTo": "queryparams",
+          "showPwd": false,
+          "tokenPrefix": "",
+          "aws": {
+            "service": "",
+            "region": "",
+            "accessKey": "",
+            "secretAccessKey": "",
+            "sessionToken": ""
+          }
+        },
+        "headers": [
+          {
+            "key": "",
+            "value": "",
+            "isChecked": false
+          }
+        ],
+        "tests": [
+          {
+            "parameter": "",
+            "action": "",
+            "expectedValue": ""
+          }
+        ],
+        "preRequestScript": "",
+        "postResponseScript": ""
+      }
+    },
+    {
+      "id": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "parent": "e09121d8-dda8-4bfb-be7f-3a7732c2faef",
+      "text": "Productos",
+      "createdTime": "24-Oct-2026 19:21:16",
+      "droppable": true,
+      "relativeIndex": 0,
+      "data": {
+        "id": "683eb114-96c0-444b-bc76-3866021ba1ec",
+        "name": "Productos",
+        "createdTime": "24-Oct-2026 19:21:16",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "db5b2a65-69f9-4990-9f54-9316a3a35a4c",
+      "parent": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "text": "ObtenerTodosAsync",
+      "createdTime": "24-Oct-2026 19:21:33",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "db5b2a65-69f9-4990-9f54-9316a3a35a4c",
+        "method": "get",
+        "name": "ObtenerTodosAsync",
+        "url": "{{base_url}}/productos",
+        "createdTime": "24-Oct-2026 19:21:33",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "5aef1a49-c8c3-4d10-a365-0cf2ea018dd8",
+      "parent": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "text": "EliminarAsync",
+      "createdTime": "24-Oct-2026 19:22:37",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "5aef1a49-c8c3-4d10-a365-0cf2ea018dd8",
+        "method": "delete",
+        "name": "EliminarAsync",
+        "url": "{{base_url}}/productos/5",
+        "createdTime": "24-Oct-2026 19:22:37",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "98015716-7f70-4557-8b0d-923820203e8d",
+      "parent": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "text": "CrearProductoAsync",
+      "createdTime": "24-Oct-2026 19:23:34",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "98015716-7f70-4557-8b0d-923820203e8d",
+        "method": "post",
+        "name": "CrearProductoAsync",
+        "url": "{{base_url}}/productos",
+        "createdTime": "24-Oct-2026 19:23:34",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "53b3e358-fdb8-4cb5-bb15-4ca5fbe2c5f7",
+      "parent": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "text": "ActualizarProducto",
+      "createdTime": "24-Oct-2026 19:24:10",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "53b3e358-fdb8-4cb5-bb15-4ca5fbe2c5f7",
+        "method": "patch",
+        "name": "ActualizarProducto",
+        "url": "{{base_url}}/productos/4",
+        "createdTime": "24-Oct-2026 19:24:10",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "e9ce109f-2edb-46aa-b016-8d42b83b0edf",
+      "parent": "683eb114-96c0-444b-bc76-3866021ba1ec",
+      "text": "BuscarCategoriaPorIdAsync",
+      "createdTime": "25-Oct-2026 04:43:10",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "e9ce109f-2edb-46aa-b016-8d42b83b0edf",
+        "method": "get",
+        "name": "BuscarCategoriaPorIdAsync",
+        "url": "{{base_url}}/productos/2",
+        "createdTime": "25-Oct-2026 04:43:10",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "60d82e9d-f87e-4f4d-9c71-2a3f708603d3",
+      "parent": "0",
+      "text": "CategoriaCollections",
+      "createdTime": "24-Oct-2026 11:17:54",
+      "droppable": true,
+      "relativeIndex": 1,
+      "data": {
+        "treeNodeType": "collection",
+        "variableId": "77c8a082-a1f4-419d-b658-37226be28705"
+      },
+      "settings": {
+        "auth": {
+          "authType": "noauth",
+          "userName": "",
+          "password": "",
+          "addTo": "queryparams",
+          "showPwd": false,
+          "tokenPrefix": "",
+          "aws": {
+            "service": "",
+            "region": "",
+            "accessKey": "",
+            "secretAccessKey": "",
+            "sessionToken": ""
+          }
+        },
+        "headers": [
+          {
+            "key": "",
+            "value": "",
+            "isChecked": false
+          }
+        ],
+        "tests": [
+          {
+            "parameter": "",
+            "action": "",
+            "expectedValue": ""
+          }
+        ],
+        "preRequestScript": "",
+        "postResponseScript": ""
+      }
+    },
+    {
+      "id": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "parent": "60d82e9d-f87e-4f4d-9c71-2a3f708603d3",
+      "text": "Categorias",
+      "createdTime": "24-Oct-2026 12:25:54",
+      "droppable": true,
+      "relativeIndex": 0,
+      "data": {
+        "id": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+        "name": "Categorias",
+        "createdTime": "24-Oct-2026 12:25:54",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "2541203d-9fbd-4294-9ab6-ceefda3d8ba1",
+      "parent": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "text": "ObtenerTodosAsync",
+      "createdTime": "24-Oct-2026 12:26:21",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "2541203d-9fbd-4294-9ab6-ceefda3d8ba1",
+        "method": "get",
+        "name": "ObtenerTodosAsync",
+        "url": "{{base_url}}/categorias",
+        "createdTime": "24-Oct-2026 12:26:21",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "7e3e0a8f-cc6c-42fc-8abe-d2ff699be6d5",
+      "parent": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "text": "EliminarAsync",
+      "createdTime": "24-Oct-2026 12:27:13",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "7e3e0a8f-cc6c-42fc-8abe-d2ff699be6d5",
+        "method": "delete",
+        "name": "EliminarAsync",
+        "url": "{{base_url}}/categorias/3",
+        "createdTime": "24-Oct-2026 12:27:13",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "18068d09-f1ed-442c-9a1a-df5c369ef018",
+      "parent": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "text": "CrearCategoriaAsync",
+      "createdTime": "24-Oct-2026 12:27:45",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "18068d09-f1ed-442c-9a1a-df5c369ef018",
+        "method": "post",
+        "name": "CrearCategoriaAsync",
+        "url": "{{base_url}}/categorias",
+        "createdTime": "24-Oct-2026 12:27:45",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "85145636-4e47-4923-a654-32e292f6dcaf",
+      "parent": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "text": "ActualizarCategoria",
+      "createdTime": "24-Oct-2026 12:28:33",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "85145636-4e47-4923-a654-32e292f6dcaf",
+        "method": "patch",
+        "name": "ActualizarCategoria",
+        "url": "{{base_url}}/categorias/5",
+        "createdTime": "24-Oct-2026 12:28:33",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "28aa2d15-fe1d-4e82-b5fa-676394d49e7b",
+      "parent": "30d6fc33-7f5e-4950-b278-c36632b7dfd5",
+      "text": "BuscarCategoriaPorIdAsync",
+      "createdTime": "25-Oct-2026 04:44:06",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "28aa2d15-fe1d-4e82-b5fa-676394d49e7b",
+        "method": "get",
+        "name": "BuscarCategoriaPorIdAsync",
+        "url": "{{base_url}}/categorias/2",
+        "createdTime": "25-Oct-2026 04:44:06",
+        "treeNodeType": "request"
+      }
+    }
+  ],
+  "requests": [
+    {
+      "id": "db5b2a65-69f9-4990-9f54-9316a3a35a4c",
+      "name": "ObtenerTodosAsync",
+      "url": "{{base_url}}/productos",
+      "method": "get",
+      "createdTime": "24-Oct-2026 19:21:33",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "5aef1a49-c8c3-4d10-a365-0cf2ea018dd8",
+      "name": "EliminarAsync",
+      "url": "{{base_url}}/productos/5",
+      "method": "delete",
+      "createdTime": "24-Oct-2026 19:22:37",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "98015716-7f70-4557-8b0d-923820203e8d",
+      "name": "CrearProductoAsync",
+      "url": "{{base_url}}/productos",
+      "method": "post",
+      "createdTime": "24-Oct-2026 19:23:34",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\r\n  \"nombre\": \"CE\",\r\n  \"precio\": 45,\r\n  \"stock\": 10,\r\n  \"categoriaId\": 5\r\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "53b3e358-fdb8-4cb5-bb15-4ca5fbe2c5f7",
+      "name": "ActualizarProducto",
+      "url": "{{base_url}}/productos/4",
+      "method": "patch",
+      "createdTime": "24-Oct-2026 19:24:10",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\r\n  \"nombre\": \"GO\",\r\n  \"precio\": 100,\r\n  \"stock\": 12,\r\n  \"categoriaId\": 2\r\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "e9ce109f-2edb-46aa-b016-8d42b83b0edf",
+      "name": "BuscarCategoriaPorIdAsync",
+      "url": "{{base_url}}/productos/2",
+      "method": "get",
+      "createdTime": "25-Oct-2026 04:43:10",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "2541203d-9fbd-4294-9ab6-ceefda3d8ba1",
+      "name": "ObtenerTodosAsync",
+      "url": "{{base_url}}/categorias",
+      "method": "get",
+      "createdTime": "24-Oct-2026 12:26:21",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "7e3e0a8f-cc6c-42fc-8abe-d2ff699be6d5",
+      "name": "EliminarAsync",
+      "url": "{{base_url}}/categorias/3",
+      "method": "delete",
+      "createdTime": "24-Oct-2026 12:27:13",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "18068d09-f1ed-442c-9a1a-df5c369ef018",
+      "name": "CrearCategoriaAsync",
+      "url": "{{base_url}}/categorias",
+      "method": "post",
+      "createdTime": "24-Oct-2026 12:27:45",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\r\n  \"nombre\": \"Prueba1\",\r\n  \"descripcion\": \"Producto de Prueba\"\r\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "85145636-4e47-4923-a654-32e292f6dcaf",
+      "name": "ActualizarCategoria",
+      "url": "{{base_url}}/categorias/5",
+      "method": "patch",
+      "createdTime": "24-Oct-2026 12:28:33",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\r\n  \"nombre\": \"Bebidas Alcoholicas\",\r\n  \"descripcion\": \"Productos líquidos Congelados\"\r\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "28aa2d15-fe1d-4e82-b5fa-676394d49e7b",
+      "name": "BuscarCategoriaPorIdAsync",
+      "url": "{{base_url}}/categorias/2",
+      "method": "get",
+      "createdTime": "25-Oct-2026 04:44:06",
+      "selectedEnvironmentId": "77c8a082-a1f4-419d-b658-37226be28705",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    }
+  ],
+  "variables": [
+    {
+      "id": "5c92370e-9674-4990-945c-a2aa7ac30686",
+      "name": "Global",
+      "createdTime": "24-Oct-2026 11:12:16",
+      "isActive": false,
+      "data": []
+    },
+    {
+      "id": "075a9447-ea61-4f8d-8743-6e7e695b695f",
+      "name": "Application",
+      "createdTime": "24-Oct-2026 11:12:16",
+      "isActive": true,
+      "data": []
+    },
+    {
+      "id": "77c8a082-a1f4-419d-b658-37226be28705",
+      "name": "ApiInicial",
+      "createdTime": "24-Oct-2026 12:04:59",
+      "isActive": false,
+      "data": [
+        {
+          "isChecked": true,
+          "key": "base_url",
+          "value": "http://localhost:5025/api/v1",
+          "type": "apiinicial"
+        }
+      ]
+    }
+  ]
+}

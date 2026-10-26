@@ -1,0 +1,14 @@
+<p>categorias works!</p>
+<section>
+  <h2>Categorías</h2>
+  @if (cargando()) { <p>Cargando categorías...</p> }
+  @else if (error()) { <p class="error">{{ error() }}</p> }
+  @else if (categorias().length === 0) { <p>No hay categorías registradas.</p> }
+  @else {
+    <ul>
+      @for (categoria of categorias(); track categoria.id) {
+        <li><strong>{{ categoria.nombre }}</strong> — {{ categoria.descripcion || 'Sin descripción' }} (Productos: {{ categoria.cantidadProductos }})</li>
+      }
+    </ul>
+  }
+</section>
