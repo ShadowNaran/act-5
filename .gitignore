@@ -8,8 +8,7 @@ consumodeapi/node_modules/
 consumodeapi/dist/
 consumodeapi/.angular/
 
-# Configuracion del agente de trabajo
-.agents/
+
 
 # Repositorios internos o metadatos locales
 **/.git/
